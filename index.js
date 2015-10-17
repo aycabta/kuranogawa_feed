@@ -31,3 +31,4 @@ request({
     var xml = feed.xml();
     console.log(xml);
 });
+
