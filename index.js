@@ -14,7 +14,7 @@ request({
     var $ = cheerio.load(body);
     var author = 'タウンマネージャー 久領堤 纒';
     feed = new RSS({
-        title: $(this).find('titrle').text(),
+        title: $('title').text(),
         feed_url: 'http://kuranogawa-feed.chijin-dokku.tk',
         site_url: 'http://p.eagate.573.jp/game/bemani/hinabita/p/kuranogawa/',
         author: author
