@@ -3,8 +3,6 @@ var Iconv = require('iconv').Iconv;
 var cheerio = require('cheerio');
 var RSS = require('rss');
 
-var feed = null;
-
 request({
     uri: 'http://p.eagate.573.jp/game/bemani/hinabita/p/kuranogawa/',
     encoding: null
