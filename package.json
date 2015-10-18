@@ -13,6 +13,7 @@
     "babel": "*",
     "express": "*",
     "request": "*",
+    "rss": "*",
     "cheerio": "*",
     "iconv": "*"
   }
