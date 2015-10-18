@@ -1,7 +1,7 @@
-var request = require('request');
-var Iconv = require('iconv').Iconv;
-var cheerio = require('cheerio');
-var RSS = require('rss');
+import request from 'request';
+import iconv from 'iconv';
+import cheerio from 'cheerio';
+import RSS from 'rss';
 
 request({
     uri: 'http://p.eagate.573.jp/game/bemani/hinabita/p/kuranogawa/',
