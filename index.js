@@ -7,8 +7,8 @@ request({
     uri: 'http://p.eagate.573.jp/game/bemani/hinabita/p/kuranogawa/',
     encoding: null
 }, function (error, response, body) {
-    var iconv = new Iconv('Shift_JIS', 'UTF-8//TRANSLIT//IGNORE');
-    body = iconv.convert(body).toString();
+    var ic = new iconv.Iconv('Shift_JIS', 'UTF-8//TRANSLIT//IGNORE');
+    body = ic.convert(body).toString();
     var $ = cheerio.load(body);
     var author = 'タウンマネージャー 久領堤 纒';
     feed = new RSS({
