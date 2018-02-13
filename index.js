@@ -24,7 +24,7 @@ app.get('/', function(req, resp) {
             site_url: 'http://p.eagate.573.jp/game/bemani/hinabita/p/kuranogawa/',
             author: author
         });
-        $('ul#blog_list li').each(function(i, elem) {
+        $('ul#blog_list > li').each(function(i, elem) {
             feed.item({
                 title: $(this).find('div.blog_title div').text(),
                 description: $(this).find('div.blog_text').text().substring(0, 400),
