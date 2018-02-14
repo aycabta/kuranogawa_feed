@@ -20,7 +20,7 @@ app.get('/', function(req, resp) {
         var author = 'タウンマネージャー 久領堤 纒';
         var feed = new RSS({
             title: $('title').text(),
-            feed_url: 'http://kuranogawa-feed.chijin-dokku.tk',
+            feed_url: 'https://github.com/aycabta/kuranogawa_feed',
             site_url: 'http://p.eagate.573.jp/game/bemani/hinabita/p/kuranogawa/',
             author: author
         });
