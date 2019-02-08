@@ -11,10 +11,11 @@
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16",
-    "iconv": "^2.3",
+    "iconv": "^2.3.2",
     "request": "^2.88",
     "rss": "^1.2"
   }
